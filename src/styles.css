@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&family=Poppins:wght@100;400;500&family=Roboto:ital,wght@1,500&display=swap");
+
+body {
+  background-color: #eff6ff;
+  margin: 0;
+  height: 100vh;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-family: "Poppins";
+  color: #1d4ed8;
+}
+
+.header {
+  margin-bottom: 0px;
+  text-transform: capitalize;
+  color: #1e3a8a;
+}
+
+.range {
+  width: 17rem;
+  height: 5px;
+}
+
+.update--component {
+  display: flex;
+  gap: 5px;
+  border-radius: 8px;
+}
+.update {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 2rem;
+  margin-bottom: 5px;
+  padding: 0 5px;
+  font-weight: 600;
+}
+
+.update p {
+  font-size: 12px;
+}
+
+.update--component button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  color: red;
+}
+
+.updates--list {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  margin-top: 8px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.updates--list-component h4 {
+  margin-top: 4rem;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.message {
+  margin: 2rem;
+  background-color: #1d4ed8;
+  padding: 18px 10px;
+  color: white;
+  width: 60%;
+  border-radius: 8px 8px 8px 0;
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drink--component button {
+  background-color: #1d4ed8;
+  padding: 4px 8px;
+  color: white;
+  margin-top: 1rem;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  font-size: 12px;
+  width: 4rem;
+}
+
+.drink--component button:hover {
+  background-color: #3b82f6;
+}
+
+.water--sizes {
+  width: 4rem;
+  color: #1e3a8a;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  background-color: #eff6ff;
+}
